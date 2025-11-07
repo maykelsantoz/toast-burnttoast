@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Servidor Node.js com BurntToast e WebSocket",
   "main": "server.js",
+  "bin": "server.js",
   "scripts": {
     "start": "node server.js"
   },
