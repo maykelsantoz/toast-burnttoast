@@ -13,7 +13,7 @@ function showToast(title, body) {
       $text1 = New-BTText -Content '${psEscape(title)}';
       $text2 = New-BTText -Content '${psEscape(body)}';
 
-      $appLogo = New-BTImage -Source 'C:\\Users\\maykel\\Documents\\node-projects\\server\\pivete.jpg' -AppLogoOverride;
+      $appLogo = New-BTImage -Source 'C:\\Users\\maykel\\Documents\\node-projects\\server\\mouse.jpg' -AppLogoOverride;
       $hero = New-BTImage -Source 'C:\\Users\\maykel\\Documents\\node-projects\\server\\pivete.jpg' -HeroImage;
 
       $binding = New-BTBinding -Children $text1, $text2 -AppLogoOverride $appLogo -HeroImage $hero
@@ -45,3 +45,4 @@ function showToast(title, body) {
 }
 
 module.exports = { showToast };
+
